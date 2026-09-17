@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>George Hastings</title>
-  <meta name="description" content="George Hastings — MComp Computer Science at the University of Bath. Building Supercharged and Vantaphai; previously shipped a productive-feed app to the App Store and grew Get There One Day past 14,000 followers.">
+  <meta name="description" content="George Hastings: forward deployed engineer at Vantaphai, founder of Supercharged, MComp Computer Science at the University of Bath. Ships production LLM applications: retrieval pipelines, evaluation harnesses, agentic systems.">
   <meta property="og:title" content="George Hastings">
-  <meta property="og:description" content="Computer science student at Bath who ships products. Supercharged, Vantaphai, AthenaLearn, Get There One Day.">
+  <meta property="og:description" content="Forward deployed engineer at Vantaphai, founder of Supercharged, MComp Computer Science at Bath.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif'>G</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
 <header class="site-header">
   <a class="wordmark" href="#top">George Hastings</a>
   <nav aria-label="Primary">
-    <a href="#projects">Projects</a>
+    <a href="#projects">Work</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
     <a href="https://github.com/Haystax101" rel="me noopener" target="_blank">GitHub ↗</a>
@@ -29,27 +29,27 @@
 <main id="top">
 
   <section class="hero">
-    <p class="eyebrow">MComp Computer Science · University of Bath · Building in London</p>
-    <h1>I build small companies and the software behind them.</h1>
+    <p class="eyebrow">Forward deployed engineer · Founder · MComp Computer Science, University of Bath</p>
+    <h1>I ship LLM systems to real clients, and build companies around them.</h1>
     <p class="lede">
-      Co-founder of <a href="#supercharged">Supercharged</a>, an agentic outreach tool for students recruiting into
-      finance and consulting. Engineer at <a href="#vantaphai">Vantaphai</a>, regulatory intelligence for law firms.
-      Before that I shipped a productive-feed app to the App Store and grew
-      <a href="#gtod">Get There One Day</a> past 14,000 followers.
+      Forward deployed engineer at <a href="#vantaphai">Vantaphai</a>, where I've built and deployed a generative AI
+      legal platform now used by UK and US banks, VCs and law firms. Founder of <a href="#supercharged">Supercharged</a>,
+      an agentic people-search tool for student career outreach, whose first version I shipped to the App Store.
+      Host of <a href="#gtod">Get There One Day</a>, a podcast that passed 16,000 followers in four months.
     </p>
     <p class="hero-links">
       <a class="button" href="#projects">See the work</a>
-      <a class="button ghost" href="mailto:[YOUR EMAIL]">Get in touch</a>
+      <a class="button ghost" href="mailto:gdwh20@bath.ac.uk">Get in touch</a>
     </p>
   </section>
 
   <section id="projects" class="projects">
-    <h2 class="section-title"><span>Projects</span><span class="rule"></span></h2>
+    <h2 class="section-title"><span>Work</span><span class="rule"></span></h2>
 
     <!-- ============================== VANTAPHAI ============================== -->
     <article class="project" id="vantaphai">
       <div class="project-meta">
-        <p class="project-role">[YOUR ROLE, e.g. Founding engineer] · 2026 – present</p>
+        <p class="project-role">Forward Deployed Engineer · May 2026 – present</p>
         <p class="project-status">In stealth · London</p>
       </div>
       <div class="project-body">
@@ -57,16 +57,21 @@
         <p class="tagline">Your digital knowledge lawyer.</p>
         <p>
           Law firms track regulatory change by hand across dozens of fragmented sources, and things get missed.
-          Vantaphai continuously scans legislation, court decisions and regulator publications across jurisdictions,
-          then turns them into risk-weighted alerts and obligation timelines tailored to each client and practice area.
+          Vantaphai continuously scans legislation, court decisions and regulator publications, then turns them into
+          risk-weighted alerts and obligation timelines tailored to each client and practice area.
+        </p>
+        <p>
+          I built the full platform through paired programming to the point of deployment and pilot, built the
+          landing page, and work directly with large bank, VC and law firm clients to shape what gets built next.
         </p>
         <ul class="facts">
-          <li>19 practice areas, 120+ sub-practice areas, 25+ sectors covered</li>
-          <li>Real-time monitoring of GOV.UK, FCA, legislation.gov.uk and court sources</li>
-          <li>[ONE LINE ON WHAT YOU PERSONALLY BUILT, e.g. the ingestion pipeline / the alerting model / the site]</li>
+          <li>Retrieval-augmented generation with a Cohere cross-encoder reranker for legal document analysis, cutting input tokens on large statutes by roughly 55 to 60% against the capped baseline</li>
+          <li>LLM evaluation harnesses for relevance, judge consistency and tagging: judge consistency to 20/20 on synthetic cases, tagging output tokens down about 40% at the same recall</li>
+          <li>Planner-routed agentic tool-calling, and a novel knowledge-graph representation of regulatory and document corpora</li>
+          <li>CI/CD via GitHub Actions and code review throughout, with mentorship on secure AI system design from a former DeepMind specialist</li>
         </ul>
         <ul class="tags">
-          <li>Next.js</li><li>React</li><li>TypeScript</li><li>[PLATFORM STACK]</li>
+          <li>Python</li><li>TypeScript</li><li>Next.js</li><li>RAG</li><li>Cross-encoder reranking</li><li>LLM evaluation</li><li>Knowledge graphs</li><li>GitHub Actions</li>
         </ul>
         <p class="links">
           <a href="https://vantaphai.com" target="_blank" rel="noopener">vantaphai.com ↗</a>
@@ -77,8 +82,8 @@
     <!-- ============================== SUPERCHARGED V2 ============================== -->
     <article class="project" id="supercharged">
       <div class="project-meta">
-        <p class="project-role">Co-founder &amp; engineer · 2025 – present</p>
-        <p class="project-status">In pilot</p>
+        <p class="project-role">Founder &amp; Technology Lead · July 2025 – present</p>
+        <p class="project-status">Pilots at Oxford and Cambridge from October 2026</p>
       </div>
       <div class="project-body">
         <h3><a href="https://superchargedai.app" target="_blank" rel="noopener">Supercharged</a></h3>
@@ -86,22 +91,24 @@
         <p>
           Cold outreach is how students actually land spring weeks and graduate roles in finance, trading and consulting,
           and almost nobody does it well. Tell Supercharged the role, the firms and the season; it finds the alumni and
-          analysts already there, scores who will actually reply across five compatibility dimensions, and drafts the
-          email in your voice. Then it tracks the whole pipeline.
+          analysts already there, scores who will actually reply, and drafts the email in your voice. Then it tracks
+          the whole pipeline.
         </p>
         <ul class="facts">
-          <li>Natural-language people discovery over a structured talent graph</li>
-          <li>Outreach drafting, reply tracking and a pipeline view, in one app</li>
-          <li>Launched to a pilot cohort at Oxford; waitlist live at superchargedai.app</li>
+          <li>Multi-step agentic search: a planner routes between web-search strategies, external APIs, user clarification and vector search over a cached network (Gemini embeddings, Convex vector index)</li>
+          <li>Multi-agent LLM-as-judge using two model families to verify and score matches, avoiding agreement bias</li>
+          <li>291 on the waitlist; October pilots lined up with the Cambridge Marshall Society and Oxford Alphafund Society</li>
+          <li>Student ambassadors across seven universities; shipped via GitHub Actions with automated testing</li>
         </ul>
         <ul class="tags">
-          <li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Convex</li><li>Clerk</li><li>Tailwind</li><li>PostHog</li><li>Playwright</li>
+          <li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Convex</li><li>Clerk</li><li>Gemini</li><li>PostHog</li><li>Playwright</li>
         </ul>
         <p class="links">
           <a href="https://superchargedai.app" target="_blank" rel="noopener">superchargedai.app ↗</a>
           <a href="https://github.com/Haystax101/supercharged-site" target="_blank" rel="noopener">Marketing site source ↗</a>
           <a href="https://github.com/Haystax101/spcmvp" target="_blank" rel="noopener">Oxford launch MVP ↗</a>
         </p>
+        <p class="note">The product codebase is proprietary. The marketing site and the original MVP are open.</p>
       </div>
     </article>
 
@@ -109,15 +116,15 @@
     <article class="project" id="scrollwise">
       <div class="project-meta">
         <p class="project-role">Solo build · 2025</p>
-        <p class="project-status">Shipped to the App Store · archived</p>
+        <p class="project-status">Shipped to the App Store · 200+ downloads · archived</p>
       </div>
       <div class="project-body">
         <h3><a href="https://github.com/Haystax101/scrollwise-app" target="_blank" rel="noopener">Supercharged: Grow Together</a> <span class="muted">(v1, codename Scrollwise)</span></h3>
         <p class="tagline">The feed you're addicted to, pointed at things worth reading.</p>
         <p>
-          A React Native app that keeps the mechanics of a short-form feed but fills it with long-form ideas: articles,
-          podcasts and books, surfaced by search rather than an engagement optimiser. Released on the iOS App Store in
-          September 2025 as the first product under the Supercharged name.
+          A React Native app that keeps the mechanics of a short-form feed but fills it with AI industry summaries and
+          long-form ideas: articles, podcasts and books, surfaced by search rather than an engagement optimiser.
+          Released on the iOS App Store in September 2025 as the first product under the Supercharged name.
         </p>
         <ul class="facts">
           <li>Hybrid retrieval: Gemini embeddings in pgvector and Postgres full-text search, fused with Reciprocal Rank Fusion</li>
@@ -125,7 +132,7 @@
           <li>13 Deno edge functions, roughly 160 components, cron-batched push notifications with receipt pruning</li>
         </ul>
         <ul class="tags">
-          <li>React Native</li><li>Expo</li><li>TypeScript</li><li>Supabase</li><li>Postgres</li><li>pgvector</li><li>Deno</li><li>EAS</li>
+          <li>React Native</li><li>Expo</li><li>TypeScript</li><li>Supabase</li><li>Postgres</li><li>pgvector</li><li>Deno</li><li>Python</li><li>EAS</li>
         </ul>
         <p class="links">
           <a href="https://github.com/Haystax101/scrollwise-app" target="_blank" rel="noopener">Source &amp; write-up ↗</a>
@@ -136,16 +143,20 @@
     <!-- ============================== GET THERE ONE DAY ============================== -->
     <article class="project" id="gtod">
       <div class="project-meta">
-        <p class="project-role">Founder &amp; host · [START YEAR] – present</p>
-        <p class="project-status">14,000+ on TikTok</p>
+        <p class="project-role">Host &amp; builder · May 2026 – present</p>
+        <p class="project-status">16,000+ followers</p>
       </div>
       <div class="project-body">
-        <h3><a href="[GTOD SITE URL]" target="_blank" rel="noopener">Get There One Day</a></h3>
-        <p class="tagline">A community for ambitious young people, built around a 100% Q&amp;A podcast.</p>
+        <h3><a href="https://www.tiktok.com/@getthereonedaypod" target="_blank" rel="noopener">Get There One Day</a></h3>
+        <p class="tagline">A 100% Q&amp;A podcast for ambitious young people, and the community that grew around it.</p>
         <p>
-          Started as a podcast answering the questions degree apprentices and school leavers actually ask, and grew past
-          14,000 followers on TikTok. It now has a free Degree Apprenticeship Playbook and Charge, an AI assistant that
-          answers apprenticeship questions and reviews CVs and cover letters, with a paid tier.
+          Answers the questions degree apprentices and school leavers actually ask. It passed 16,000 followers in four
+          months, partners with brands on sponsored content, and got me invited to speak at the Independent Higher
+          Education conference in November on young people's changing attitudes to education.
+        </p>
+        <p>
+          I also built the site: a free Degree Apprenticeship Playbook, and Charge, an AI assistant that answers
+          apprenticeship questions and reviews CVs and cover letters, with a paid tier.
         </p>
         <ul class="facts">
           <li>Charge streams replies live from a Convex backend, with per-user daily caps and monthly cost caps</li>
@@ -156,7 +167,7 @@
           <li>React</li><li>Vite</li><li>Convex</li><li>Clerk</li><li>Stripe</li><li>TikTok</li>
         </ul>
         <p class="links">
-          <a href="https://www.tiktok.com/@[TIKTOK HANDLE]" target="_blank" rel="noopener">TikTok ↗</a>
+          <a href="https://www.tiktok.com/@getthereonedaypod" target="_blank" rel="noopener">TikTok ↗</a>
           <a href="https://github.com/Haystax101/gtod-site" target="_blank" rel="noopener">Site &amp; Charge source ↗</a>
         </p>
       </div>
@@ -165,53 +176,88 @@
     <!-- ============================== ATHENALEARN ============================== -->
     <article class="project" id="athenalearn">
       <div class="project-meta">
-        <p class="project-role">Technological Executive · [START YEAR] – present</p>
-        <p class="project-status">[STATUS, e.g. Active]</p>
+        <p class="project-role">Founder &amp; Technology Lead · Sept 2024 – Sept 2025</p>
+        <p class="project-status">Wound down</p>
       </div>
       <div class="project-body">
-        <h3>AthenaLearn</h3>
-        <p class="tagline">[ONE-LINE DESCRIPTION OF ATHENALEARN, e.g. Tutoring platform for ...]</p>
+        <h3>Athenalearn</h3>
+        <p class="tagline">One-to-one tutoring from students at top universities.</p>
         <p>
-          [WHAT ATHENALEARN DOES, WHO IT SERVES, AND WHAT YOU OWN THERE. Two or three sentences.]
+          A tutoring startup I ran through my first year at Bath. I recruited and managed a team of more than ten
+          tutors, interviewing each one, and personally delivered over 200 hours of one-to-one tutoring across seven
+          clients. On the technical side I built the website and the interactive progress reports parents used to see
+          how their child was doing.
         </p>
         <ul class="facts">
-          <li>Built the marketing site (React + Vite)</li>
-          <li>Built Pantheon, the AthenaLearn knowledge-management mobile app (React Native, NativeWind)</li>
-          <li>[A NUMBER IF YOU HAVE ONE: students, tutors, sessions, revenue]</li>
+          <li>10+ tutors onboarded and managed; 200+ hours delivered personally</li>
+          <li>Interactive progress reports built on Python analytics</li>
+          <li>Pantheon, a knowledge-management mobile app prototype in React Native</li>
         </ul>
         <ul class="tags">
-          <li>React</li><li>React Native</li><li>TypeScript</li><li>Vite</li>
+          <li>React</li><li>Vite</li><li>Python</li><li>React Native</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- ============================== CORTEX ============================== -->
+    <article class="project" id="cortex">
+      <div class="project-meta">
+        <p class="project-role">Side project · 2026</p>
+        <p class="project-status">Open source</p>
+      </div>
+      <div class="project-body">
+        <h3><a href="https://github.com/Haystax101/cortex" target="_blank" rel="noopener">Cortex</a></h3>
+        <p class="tagline">A personal AI brain that lives in a folder of markdown.</p>
+        <p>
+          A local web app that puts a streaming chat interface on top of a plain folder tree. The agent, built on the
+          Claude Agent SDK, reads and writes that tree directly: knowledge notes, its own persistent memory, uploaded
+          files and skills. Because it follows Claude Code's conventions, the CLI and the web app share one brain and
+          one chat history.
+        </p>
+        <ul class="facts">
+          <li>Express and WebSocket server that spawns the agent per message with the brain as its working directory</li>
+          <li>React front end with a file browser, drag-and-drop inbox and live-streamed replies</li>
+          <li>The brain is a git repo, so every edit the agent makes is diffable and revertible</li>
+        </ul>
+        <ul class="tags">
+          <li>TypeScript</li><li>React</li><li>Express</li><li>WebSockets</li><li>Claude Agent SDK</li>
         </ul>
         <p class="links">
-          <a href="[ATHENALEARN URL]" target="_blank" rel="noopener">[athenalearn.com] ↗</a>
+          <a href="https://github.com/Haystax101/cortex" target="_blank" rel="noopener">Source ↗</a>
         </p>
       </div>
     </article>
 
   </section>
 
-
   <section id="about" class="about">
     <h2 class="section-title"><span>About</span><span class="rule"></span></h2>
     <div class="about-grid">
       <div>
         <p>
-          I'm in year [N] of the MComp Computer Science at the University of Bath. Outside lectures I've spent the last
-          two years starting things: a podcast that became a community, an app that made it to the App Store, and two
-          companies that are still going.
+          I'm in the third year of the MComp Computer Science at the University of Bath, graduating in 2028. First
+          year came out at 81.5% and won the Netcraft Prize for the top 25 computer science undergraduates at Bath.
+          Outside lectures I've spent the last two years starting things: a tutoring company, an app that made it to
+          the App Store, a podcast that became a community, and a startup that's still going.
         </p>
         <p>
-          I like problems where the hard part is retrieval, ranking or getting the right information to the right person
-          at the right time. Most of what I've built comes back to that.
+          The work I like most sits where engineering meets clients: retrieval pipelines, evaluation harnesses and
+          agentic systems, built alongside the people who'll use them. Forward deployed engineering in legal tech has
+          confirmed that's the path.
         </p>
-        <p>[ONE PERSONAL LINE: what you're looking for next, or something you care about outside of code.]</p>
+        <p>
+          Away from code I'm a Grade 8 pianist and saxophonist, two years in Bath Big Band, and a former Worcester
+          Warriors academy rugby player.
+        </p>
       </div>
       <dl class="timeline">
-        <dt>2026 –</dt><dd>Vantaphai, [ROLE]</dd>
-        <dt>2025 –</dt><dd>Supercharged, co-founder</dd>
-        <dt>[YEAR] –</dt><dd>AthenaLearn, Technological Executive</dd>
-        <dt>[YEAR] –</dt><dd>Get There One Day, founder</dd>
-        <dt>[YEAR] –</dt><dd>University of Bath, MComp Computer Science</dd>
+        <dt>2026 –</dt><dd>Vantaphai, Forward Deployed Engineer</dd>
+        <dt>2026 –</dt><dd>Get There One Day, host</dd>
+        <dt>2025 –</dt><dd>Supercharged, founder</dd>
+        <dt>2024 – 25</dt><dd>Athenalearn, founder</dd>
+        <dt>2024 – 28</dt><dd>University of Bath, MComp Computer Science</dd>
+        <dt>2025</dt><dd>Netcraft Prize, top 25 CS undergraduates at Bath</dd>
+        <dt>2024</dt><dd>Top 100, UK &amp; Ireland Programming Contest</dd>
       </dl>
     </div>
   </section>
@@ -220,9 +266,9 @@
     <h2 class="section-title"><span>Contact</span><span class="rule"></span></h2>
     <p class="contact-lede">The fastest way to reach me is email.</p>
     <ul class="contact-list">
-      <li><a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></li>
+      <li><a href="mailto:gdwh20@bath.ac.uk">gdwh20@bath.ac.uk</a></li>
       <li><a href="https://github.com/Haystax101" target="_blank" rel="me noopener">github.com/Haystax101</a></li>
-      <li><a href="https://www.linkedin.com/in/[LINKEDIN HANDLE]" target="_blank" rel="me noopener">linkedin.com/in/[LINKEDIN HANDLE]</a></li>
+      <li><a href="https://www.linkedin.com/in/george-hastings-0330562a9" target="_blank" rel="me noopener">linkedin.com/in/george-hastings-0330562a9</a></li>
     </ul>
   </section>
 

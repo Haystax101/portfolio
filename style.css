@@ -134,3 +134,5 @@ section { padding-bottom: clamp(48px, 8vw, 96px); }
 /* ------------------------------------------------------------------ footer */
 .site-footer { max-width: 1040px; margin: 0 auto; padding: 32px var(--gutter) 48px; }
 .site-footer p { font-size: 0.82rem; color: var(--ink-3); margin: 0; }
+
+.note { font-size: 0.85rem; color: var(--ink-3); margin-top: 12px; }
