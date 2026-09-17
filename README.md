@@ -6,7 +6,7 @@ Placeholders to fill are in square brackets: search the file for `[`.
 
 ## Custom domain
 
-1. Add a file named `CNAME` at the repo root containing just the domain (e.g. `georgehastings.me`).
+1. Add a file named `CNAME` at the repo root containing just the domain (`georgehastings.me`, already added).
 2. At the registrar, add DNS records:
    - `A` records for `@` → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
    - `CNAME` record for `www` → `haystax101.github.io`
